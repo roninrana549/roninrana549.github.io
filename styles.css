@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+.header{
+    min-height: 100vh;
+    width:100%;
+    background-image: url(flex.png);
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    
+}
+
+
+
+
+#headd{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20%;
+    background-color: whitesmoke;
+    position: fixed;
+    transition: 0.2s;
+    
+}
+
+.footer{
+   
+    
+    background-size:cover;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20%;
+    padding-top: 10px;
+    padding-bottom: 5%;
+    font-family: "Montserrat",sans-serif;
+    font-size: 20px;
+    
+
+}
+
+.footer-top h6{
+    color: #2b2b2b;
+}
+
+.footer-top{
+    background:whitesmoke;
+    
+    background-size:cover;
+    width: 100%;
+    
+    align-items: center;
+    padding: 30px 20%;
+    padding-top: 4%;
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: 20px;
+}
+
+.footer h6{
+    color: #2b2b2b;
+    background: none;
+}
+
+#logos{
+    width: 120px;
+    cursor: pointer;
+    transition:0.2s;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links__2{
+    list-style: none;
+  
+}
+
+.nav__links__2 li{
+
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav__links__2 li a{
+    transition: all 0.3s ease 0s;
+}
+
+.course{
+    width: 50%;
+    margin:auto;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+
+h2{
+    font-size: 55px;
+    font-family: "Montserrat",sans-serif;
+}
+
+h1{
+    color: 2b2b2b;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 2%;
+    font-family: "Montserrat",sans-serif;
+}
+
+.whorwe p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+    color: #2b2b2b;
+    text-align: left;
+}
+
+.whorwe h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #2b2b2b;
+}
+
+.whorwe h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #2b2b2b;
+}
+
+.whorwe{
+    width: 70%;
+    margin:auto;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+
+
+.short-about{
+    background:whitesmoke;
+    background-size:cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.row{
+    margin-top:5%;
+    display:flex;
+    justify-content: space-between;
+   
+}
+
+.text-box{
+    width:90%;
+    color: #dee8b7;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+li,a{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    color: #2b2b2b;
+    text-decoration: none;
+    
+}
+
+.text-blog{
+    width:90%;
+    color: #2b2b2b;
+    position: absolute;
+    
+    top: 70%;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.column-blog1{
+    width: 50%;
+    flex-basis: 50%;
+    
+    
+}
+
+.headerproducts{
+    min-height: 20vh;
+    width:100%;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    
+}
+
+.product-page{
+    
+    background-size:cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 20%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.column-ab{
+    color: #2b2b2b;
+    padding-top: 40px;
+    padding-left: 20px;
+    font-family: "Montserrat",sans-serif;
+}
+
+.column-ab-l{
+    padding-right: 20px;
+}
+
+
+
+.column-blog{
+    flex-basis: 50%;
+    
+    
+}
+
+.blog-top{
+    min-height: 30vh;
+    width:100%;
+    
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    
+}
+
+.blog-top h1{
+    color: #2b2b2b;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.column-ab-l{
+    padding-right: 20px;
+}
+
+.column-ab{
+    color: #2b2b2b;
+    padding-top: 40px;
+    padding-left: 20px;
+    font-family: "Montserrat",sans-serif;
+}
+
+
+
+.column{
+    flex-basis: 45%;
+    background-color:grey;
+    padding: 4%;
+   
+}
+
+
+
+.column:hover{
+    box-shadow: 0 0 20px 0px rgba(164, 163, 163, 0.2);
+}
+
+.column-about{
+    flex-basis: 70%;
+}
+
+.column-about{
+    flex-basis: 30%;
+}
+
+
+.blogpost p{
+    padding-top: 10px;
+    color: #2b2b2b;
+    font-family: "Montserrat",sans-serif;
+    font-size: 12px;
+
+}
+
+.blogpost h2{
+    padding-top: 15px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size:20px;
+    color: #2b2b2b;
+  
+}
+
+.blogpost{
+    width: 70%;
+   align-items: center; 
+   width: 90%;
+    margin:auto;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.loacation {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.loacation iframe {
+    width: 100%;
+}
+
+.contact-us {
+    width: 80%;
+    margin: auto;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    color: #2b2b2b;
+    text-decoration: none;
+
+}
+
+.content-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.content-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.content-col div .fa {
+    font-size: 28px;
+    color: grey;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.content-col div p {
+    padding: 0;
+}
+
+.content-col div h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+
+.content-col input, .content-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+}
